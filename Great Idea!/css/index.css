@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +63,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.all_content{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	 
+}
+
+.nav_manu{
+	text-align: left;
+	margin:40px;
+	
+}
+
+.nav_manu a{
+	text-decoration: none;
+	background-color:white;
+	color:grey;
+	margin: 35px;
+	
+}
+
+header{
+	text-align: center;
+	padding:20px;
+	
+}
+
+.header{
+	display: inline-block;
+	margin:30px;
+	text-align: center;
+}
+
+h1{
+	font-size: 78px;
+	
+	text-align: center;
+}
+
+
+.content1{
+	display:inline-block;
+	margin:20px 10px 20px 0;
+}
+
+.content2{
+	display:inline-block;
+	margin:20px 10px 20px 0;
+
+	
+}
+
+.contact{
+	text-align: left;
+	margin:20px 10px 20px 0;
+
+}
+
+.contact h2{
+	text-align: left;
+
+	
+}
+
+p{
+	text-align: left;
+	
+}
+
+.header button{
+	background-color:white;
+	padding:8px;
+	width:175px;
+	border:1px solid black;
+	text-align: center;
+}
+
+body{
+	margin:50px;
+}
+
+
+
+footer{
+	margin:60px;
+	text-align:center;
+	
+}
+
