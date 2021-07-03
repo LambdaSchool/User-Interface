@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -59,8 +59,159 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
 }
 
+h1 {
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+h2, h3, h4, h5 {
+	font-family: 'Share Tech Mono', monospace;
+	font-weight: bold;
+}
+
+hr {
+	margin: 0px;
+}
 /* Your code starts here! */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.page {
+	margin: 0 auto;
+	position: relative;
+}
+
+.page,
+.header-container {
+	width: 900px;
+}
+
+
+.header-container{
+	position: fixed;
+	top: 0px;
+	background-color: #ffffff;
+	z-index: 10;
+}
+
+nav {
+	display: inline-block;
+	width: 80%;
+
+}
+
+nav a {
+	display: inline-block;
+	width: 15%;
+	margin: 20px 0px;
+	color: #B6B6B6;
+}
+
+nav a:hover {
+	color: #000000;
+}
+
+.logo {
+	display: inline-block;
+	width: 19%;
+	position: relative;
+	top: 10px;
+}
+
+.top-container {
+	position: relative;
+	margin-bottom: 50px;
+
+	background-image: url('../img/header-img.png');
+
+	height: 100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.headline-button {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	padding: 100px 0px;
+	background-color: #ffffff;
+	opacity: 0.75;
+}
+
+.headline {
+	font-size: 72px;
+	margin-bottom: 20px;
+}
+
+.button  {
+	padding: 0px 40px;
+	border: 1px solid black;
+	text-decoration: none;
+	width: 0 auto;
+}
+
+.button:hover {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.button:active {
+	color: #000000;
+	background-color: #000000;
+}
+
+/* #head-image {
+	width: 40%;
+	display: inline-block;
+	position: relative;
+} */
+
+/* .first-row,
+.bottom-row, */
+.contact-info {
+	margin: 30px 0px;
+}
+
+.first-row,
+.bottom-row {
+	background-color: #ffffff;
+	opacity: 0.9;
+}
+
+.bottom-row {
+	margin-top: 94px;
+}
+
+.content-first-row {
+	width: 48%;
+	display: inline-block;
+	margin: 15px 15px 15px 0px;
+}
+
+
+.content-bottom-row {
+	width: 33%;
+	display: inline-block;
+}
+
+.content {
+	background-image: url('../img/mid-page-accent.jpg');
+	height: 300px;
+	position: relative;
+	background-size: cover;
+}
+
+footer {
+	text-align: center;
+	margin-top: 40px;
+}
